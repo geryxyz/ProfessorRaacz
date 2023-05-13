@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raczprof_inspection"
+authors = [
+    {name = "Dominik Nagy"},
+]
+description = "A library made for inspecting various things within Gitlab and Github repositories."
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["racz", "professzor"]
+license = {text = "MIT"}
+version = "1.0"
+
+[tool.setuptools]
+packages = ["raczprof_inspection"]
